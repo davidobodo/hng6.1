@@ -193,6 +193,7 @@ input[value="Login"]{
     font-size: 0.875rem;
     text-align: center;
     display: none;
+    cursor: pointer;
 }
 
 
@@ -238,6 +239,7 @@ input[value="Login"]{
 
     .sign_in{
         width: 100%;
+        height: 540px;
     }
 
     .sign_in ul{
@@ -246,5 +248,30 @@ input[value="Login"]{
 
     .sign_in> a {
         display: block;
+    }
+}
+
+@media (max-width: 650px){
+    body{
+        height: auto;
+    }
+
+    main{
+        margin-top: 70px;
+        margin-bottom: 70px;
+    }
+
+    
+    .sign_up form section.form_group{
+        flex-wrap: wrap;
+    }
+
+    .form_group div{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+
+    .sign_up section:nth-child(4) {
+        margin-bottom: 1.5rem;
     }
 }
