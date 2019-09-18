@@ -12,6 +12,9 @@ body{
     justify-content: center;
     
     background: linear-gradient(90deg, black, orange);
+    background: url('https://images.unsplash.com/photo-1568405336404-1fefdca58699?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+    background-position: center;
 }
 
 main{
@@ -20,6 +23,8 @@ main{
     background-color: #ffffff;
     color: #000000;
     display: flex;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 15px;
 }
 
 .sign_up{
